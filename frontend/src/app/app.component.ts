@@ -19,7 +19,7 @@ export class AppComponent {
   constructor(public dataService: DataserviceService, public http: HttpClient) { }
 
   searchcity(){
-    alert(this.zipcode);
+    
     this.dataService.zipdatax(this.zipcode);   
 
   }

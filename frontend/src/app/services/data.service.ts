@@ -20,7 +20,7 @@ export class DataserviceService {
   }
   debugger;
   zipdatax(zipcode){
-    return this.http.get<Zipcodemodel[]>('https://www.zipcodeapi.com/rest/ACyNGg4mkGWQGw6nw9KWGdoW5iLJsrM8dkRNT4Yr53SESP7NlYCzpWraFAuGrgCJ/info.json/' + zipcode + '/radians')
+    return this.http.get<Zipcodemodel[]>('api' + zipcode + '/radians')
     .subscribe((data: Zipcodemodel[]) => this.zipcodemodel = {
       zip_code: data['zip_code'],
       lat: data['lat'],
