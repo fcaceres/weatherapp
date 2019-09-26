@@ -1,0 +1,36 @@
+{
+  "zip_code": "19018",
+  "lat": 0.696789,
+  "lng": -1.31421,
+  "city": "Clifton Heights",
+  "state": "PA",
+  "timezone": {
+    "timezone_identifier": "America\/New_York",
+    "timezone_abbr": "EDT",
+    "utc_offset_sec": -14400,
+    "is_dst": "T"
+  },
+  "acceptable_city_names": [{
+    "city": "Aldan",
+    "state": "PA"
+  }, {
+    "city": "Clifton Hts",
+    "state": "PA"
+  }, {
+    "city": "Primos",
+    "state": "PA"
+  }, {
+    "city": "Primos Secane",
+    "state": "PA"
+  }, {
+    "city": "Primos-secane",
+    "state": "PA"
+  }, {
+    "city": "Secane",
+    "state": "PA"
+  }, {
+    "city": "Westbrook Park",
+    "state": "PA"
+  }],
+  "area_codes": [484, 610, 835]
+}
